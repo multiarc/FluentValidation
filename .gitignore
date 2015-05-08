@@ -16,3 +16,6 @@ TestResult.xml
 packages/
 *.sln.ide/
 artifacts/
+Debug
+release
+/.vs

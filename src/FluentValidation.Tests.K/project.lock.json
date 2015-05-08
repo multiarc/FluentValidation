@@ -1,0 +1,94 @@
+{
+  "locked": false,
+  "version": -9998,
+  "projectFileDependencyGroups": {
+    "": [
+      "FluentValidation.K >= 1.0.0-*",
+      "xunit ",
+      "Xunit.KRunner ",
+      "System.Threading >= 4.0.0-beta-22231"
+    ],
+    "Asp.NetCore,Version=v5.0": [
+      "System.Runtime >= 4.0.20-beta-22231"
+    ]
+  },
+  "libraries": {
+    "System.Runtime/4.0.20-beta-22231": {
+      "serviceable": false,
+      "sha": "tGnSefelEVGJTBqjSsgZeoXbAeuvTFUs1uUB/Q43PuxjvaIQGVabAWn0lGZHLLOXNNyik9jiUlOlwnPmlx68hA==",
+      "frameworks": {
+        "Asp.NetCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/aspnetcore50/System.Runtime.dll"
+          ],
+          "compileAssemblies": [
+            "lib/contract/System.Runtime.dll"
+          ]
+        }
+      },
+      "files": [
+        "License.rtf",
+        "System.Runtime.4.0.20-beta-22231.nupkg",
+        "System.Runtime.4.0.20-beta-22231.nupkg.sha512",
+        "System.Runtime.nuspec",
+        "lib/aspnetcore50/System.Runtime.dll",
+        "lib/contract/System.Runtime.dll"
+      ]
+    },
+    "System.Threading/4.0.0-beta-22231": {
+      "serviceable": false,
+      "sha": "XVyMDWuL1Bm/G5cbt3Lq+H108DysEoqAq1RIvQIa4mEzP1BMw+cXuKYbQqG8UFXuVcDAuo8uAuFNfeZKdKwlng==",
+      "frameworks": {
+        "Asp.NetCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.0-beta-22231",
+            "System.Threading.Tasks": "4.0.0-beta-22231"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/aspnetcore50/System.Threading.dll"
+          ],
+          "compileAssemblies": [
+            "lib/contract/System.Threading.dll"
+          ]
+        }
+      },
+      "files": [
+        "License.rtf",
+        "System.Threading.4.0.0-beta-22231.nupkg",
+        "System.Threading.4.0.0-beta-22231.nupkg.sha512",
+        "System.Threading.nuspec",
+        "lib/aspnetcore50/System.Threading.dll",
+        "lib/contract/System.Threading.dll"
+      ]
+    },
+    "System.Threading.Tasks/4.0.10-beta-22231": {
+      "serviceable": false,
+      "sha": "slBoKjYHr88xP9qMWcZZe1piizScXhtJ/SjMmHpFPSBy+jvcrZrNP86Ze9lUXnoMOgP0mQ7Bu1GXw7ShsjleNg==",
+      "frameworks": {
+        "Asp.NetCore,Version=v5.0": {
+          "dependencies": {
+            "System.Runtime": "4.0.0-beta-22231"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/aspnetcore50/System.Threading.Tasks.dll"
+          ],
+          "compileAssemblies": [
+            "lib/contract/System.Threading.Tasks.dll"
+          ]
+        }
+      },
+      "files": [
+        "License.rtf",
+        "System.Threading.Tasks.4.0.10-beta-22231.nupkg",
+        "System.Threading.Tasks.4.0.10-beta-22231.nupkg.sha512",
+        "System.Threading.Tasks.nuspec",
+        "lib/aspnetcore50/System.Threading.Tasks.dll",
+        "lib/contract/System.Threading.Tasks.dll"
+      ]
+    }
+  }
+}
