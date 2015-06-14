@@ -25,6 +25,92 @@
     ]
   },
   "libraries": {
+    "FluentValidation.K/5.6.0.5-beta4": {
+      "serviceable": false,
+      "sha": "xNflcvk4mYikk96Aso6avh9fKzcSL8Yp7VNHGN9I5wQr/qBo6kwobsL0eEWgssgxXrTMGc4thYa4rM02GDIPUg==",
+      "frameworks": {
+        ".NETFramework,Version=v4.5": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System",
+            "System.Core",
+            "Microsoft.CSharp"
+          ],
+          "runtimeAssemblies": [
+            "lib/net45/FluentValidation.dll",
+            "lib/net45/FluentValidation.K.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/FluentValidation.dll",
+            "lib/net45/FluentValidation.K.dll"
+          ]
+        },
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "mscorlib",
+            "System",
+            "System.Core",
+            "Microsoft.CSharp"
+          ],
+          "runtimeAssemblies": [
+            "lib/dnx451/FluentValidation.dll",
+            "lib/dnx451/FluentValidation.K.dll"
+          ],
+          "compileAssemblies": [
+            "lib/dnx451/FluentValidation.dll",
+            "lib/dnx451/FluentValidation.K.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "System.Linq": "4.0.0.0",
+            "System.Collections": "4.0.10.0",
+            "System.Reflection": "4.0.10.0",
+            "System.Reflection.Extensions": "4.0.0.0",
+            "System.Runtime.Extensions": "4.0.10.0",
+            "System.Reflection.TypeExtensions": "4.0.0.0",
+            "System.ComponentModel": "4.0.0.0",
+            "System.Resources.ResourceManager": "4.0.0.0",
+            "System.Text.RegularExpressions": "4.0.10-beta-22816",
+            "System.Threading": "4.0.10-beta-22816",
+            "System.Threading.Tasks": "4.0.10.0",
+            "System.Linq.Expressions": "4.0.10-beta-22816",
+            "System.Globalization": "4.0.10.0",
+            "System.Diagnostics.Contracts": "4.0.0.0",
+            "System.Diagnostics.Debug": "4.0.10.0",
+            "System.Diagnostics.Tools": "4.0.0.0"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/dnxcore50/FluentValidation.dll",
+            "lib/dnxcore50/FluentValidation.K.dll"
+          ],
+          "compileAssemblies": [
+            "lib/dnxcore50/FluentValidation.dll",
+            "lib/dnxcore50/FluentValidation.K.dll"
+          ]
+        }
+      },
+      "files": [
+        "FluentValidation.K.5.6.0.5-beta4.nupkg",
+        "FluentValidation.K.5.6.0.5-beta4.nupkg.sha512",
+        "FluentValidation.K.nuspec",
+        "lib/dnx451/FluentValidation.dll",
+        "lib/dnx451/FluentValidation.K.dll",
+        "lib/dnx451/FluentValidation.K.xml",
+        "lib/dnx451/FluentValidation.xml",
+        "lib/dnxcore50/FluentValidation.dll",
+        "lib/dnxcore50/FluentValidation.K.dll",
+        "lib/dnxcore50/FluentValidation.K.xml",
+        "lib/dnxcore50/FluentValidation.xml",
+        "lib/net45/FluentValidation.dll",
+        "lib/net45/FluentValidation.K.dll",
+        "lib/net45/FluentValidation.K.xml",
+        "lib/net45/FluentValidation.xml"
+      ]
+    },
     "System.Collections/4.0.10.0": {
       "serviceable": false,
       "sha": "YsU7e47CUc8yeLyDHBfcKQGQZNPHZmVJx02qXcLi7fAiUGvnnBeSUhywdtyJrpG1Q5WXu3+ebqavG48cgcxOeA==",

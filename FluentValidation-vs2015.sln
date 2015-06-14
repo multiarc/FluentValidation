@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		FluentValidation.snk = FluentValidation.snk
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation", "src\FluentValidation.K\FluentValidation.csproj", "{DAE0249B-4F69-4AC9-9A17-AA23E0795316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation", "src\FluentValidation\FluentValidation.csproj", "{DAE0249B-4F69-4AC9-9A17-AA23E0795316}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation.Tests", "src\FluentValidation.Tests\FluentValidation.Tests.csproj", "{E353A6E3-5404-4E1E-B33D-4C7BAE646752}"
 EndProject
@@ -50,7 +50,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation.Portable40
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FluentValidation.Mvc6", "src\FluentValidation.Mvc6\FluentValidation.Mvc6.xproj", "{C786D1E0-4F5C-44BC-B2D7-6D7A430E759B}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FluentValidation.K", "src\FluentValidation.K\FluentValidation.K.kproj", "{33895E3B-410F-4465-A1C4-8FABB6C0AA2A}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FluentValidation.K", "src\FluentValidation\FluentValidation.K.xproj", "{33895E3B-410F-4465-A1C4-8FABB6C0AA2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
